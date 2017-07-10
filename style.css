@@ -1,0 +1,28 @@
+html{
+    background-image: url(background7.jpg);
+    background-size: cover;
+    color: black;
+    font-family: cursive;
+    font-size: 17px;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+
+.foto
+{
+    border-radius: 20px;
+    border: 4px solid lemonchiffon;
+    width: 800px;
+    hight: 800px;
+        }
+.onemli
+{
+    font-size: 18px;
+}
+h1{
+    color:cadetblue
+}
+h2{
+    color:darkred
+}
