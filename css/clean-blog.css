@@ -97,9 +97,10 @@ hr.small {
     color: black;
   }
   .navbar-custom .nav li ul.dropdown-menu a:hover,
-  .navbar-custom .nav li ul.dropdown-menu a:focus {
+  .navbar-custom .nav li ul.dropdown-menu a:focus,
+    .navbar-custom .nav li ul.dropdown-menu a:active {
     background-color: white;
-    color: #0085A1;
+    color: deepskyblue;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -359,8 +360,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085A1;
-  border: 1px solid #0085A1;
+  background-color: transparent;
+  border: 1px solid transparent;
   color: black;
 }
 .pager {
@@ -394,12 +395,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: red;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085A1;
+  background: transparent;
 }
 img::selection {
   color: white;
@@ -410,7 +411,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  -webkit-tap-highlight-color: #0085A1;
+  -webkit-tap-highlight-color: red;
 }
 .bosluk{
     margin-bottom: 20px
@@ -421,7 +422,7 @@ post2 > a {
 .post2 > a:hover,
 .post2 > a:focus {
   text-decoration: none;
-  color: #0085A1;
+  color: red;
 }
 .post2 > a > .post-title {
   font-size: 30px;
@@ -445,10 +446,6 @@ post2 > a {
 }
 .post2 > .post-meta > a:hover,
 .post2 > .post-meta > a:focus {
-  color: #0085A1;
+  color: red;
   text-decoration: underline;
-}
-.container-fluid
-{
-    color: white;
 }
